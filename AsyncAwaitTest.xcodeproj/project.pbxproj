@@ -15,6 +15,7 @@
 		B46E91B025B984F800773FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46E91AE25B984F800773FF2 /* LaunchScreen.storyboard */; };
 		B46E91BB25B984F800773FF2 /* AsyncAwaitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91BA25B984F800773FF2 /* AsyncAwaitTestTests.swift */; };
 		B46E91C625B984F800773FF2 /* AsyncAwaitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91C525B984F800773FF2 /* AsyncAwaitTestUITests.swift */; };
+		B46E91D725B9858F00773FF2 /* AsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91D625B9858F00773FF2 /* AsyncTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B46E91C125B984F800773FF2 /* AsyncAwaitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E91C525B984F800773FF2 /* AsyncAwaitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTestUITests.swift; sourceTree = "<group>"; };
 		B46E91C725B984F800773FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B46E91D625B9858F00773FF2 /* AsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B46E91A325B984F500773FF2 /* AppDelegate.swift */,
 				B46E91A525B984F500773FF2 /* SceneDelegate.swift */,
 				B46E91A725B984F500773FF2 /* ViewController.swift */,
+				B46E91D625B9858F00773FF2 /* AsyncTest.swift */,
 				B46E91A925B984F500773FF2 /* Main.storyboard */,
 				B46E91AC25B984F800773FF2 /* Assets.xcassets */,
 				B46E91AE25B984F800773FF2 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46E91D725B9858F00773FF2 /* AsyncTest.swift in Sources */,
 				B46E91A825B984F500773FF2 /* ViewController.swift in Sources */,
 				B46E91A425B984F500773FF2 /* AppDelegate.swift in Sources */,
 				B46E91A625B984F500773FF2 /* SceneDelegate.swift in Sources */,
@@ -370,9 +374,11 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-experimental-concurrency";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 			};
 			name = Debug;
 		};
@@ -424,9 +430,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -enable-experimental-concurrency";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -438,6 +446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = AsyncAwaitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2C7W4RF846;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = AsyncAwaitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

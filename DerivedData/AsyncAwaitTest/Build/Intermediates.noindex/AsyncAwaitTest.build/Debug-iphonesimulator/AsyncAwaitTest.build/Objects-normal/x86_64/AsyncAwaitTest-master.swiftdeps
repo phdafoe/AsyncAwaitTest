@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a88d59a2abbfc788768ec546064ede6d"
+build_time: [1611582061, 12509000]
+inputs:
+  "/Users/aocampoe/Documents/DEVELOP/APPS_PERSONALES/AsyncAwaitTest/AsyncAwaitTest/AsyncTest.swift": !dirty [1611234306, 202667468]
+  "/Users/aocampoe/Documents/DEVELOP/APPS_PERSONALES/AsyncAwaitTest/AsyncAwaitTest/ViewController.swift": !dirty [1611222389, 151439085]
+  "/Users/aocampoe/Documents/DEVELOP/APPS_PERSONALES/AsyncAwaitTest/AsyncAwaitTest/AppDelegate.swift": !dirty [1611222389, 136646215]
+  "/Users/aocampoe/Documents/DEVELOP/APPS_PERSONALES/AsyncAwaitTest/AsyncAwaitTest/SceneDelegate.swift": !dirty [1611222389, 148035337]
