@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44E39A625BF376800C00636 /* BrakefastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E39A525BF376800C00636 /* BrakefastModel.swift */; };
+		B44E39B525BF398E00C00636 /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E39B425BF398E00C00636 /* ViewControllerPresenter.swift */; };
+		B44E39BA25BF3A7400C00636 /* ViewControllerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E39B925BF3A7400C00636 /* ViewControllerInteractor.swift */; };
 		B46E91A425B984F500773FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91A325B984F500773FF2 /* AppDelegate.swift */; };
 		B46E91A625B984F500773FF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91A525B984F500773FF2 /* SceneDelegate.swift */; };
 		B46E91A825B984F500773FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91A725B984F500773FF2 /* ViewController.swift */; };
@@ -15,7 +18,6 @@
 		B46E91B025B984F800773FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B46E91AE25B984F800773FF2 /* LaunchScreen.storyboard */; };
 		B46E91BB25B984F800773FF2 /* AsyncAwaitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91BA25B984F800773FF2 /* AsyncAwaitTestTests.swift */; };
 		B46E91C625B984F800773FF2 /* AsyncAwaitTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91C525B984F800773FF2 /* AsyncAwaitTestUITests.swift */; };
-		B46E91D725B9858F00773FF2 /* AsyncTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46E91D625B9858F00773FF2 /* AsyncTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B44E39A525BF376800C00636 /* BrakefastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakefastModel.swift; sourceTree = "<group>"; };
+		B44E39B425BF398E00C00636 /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		B44E39B925BF3A7400C00636 /* ViewControllerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInteractor.swift; sourceTree = "<group>"; };
 		B46E91A025B984F500773FF2 /* AsyncAwaitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E91A325B984F500773FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B46E91A525B984F500773FF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +55,6 @@
 		B46E91C125B984F800773FF2 /* AsyncAwaitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46E91C525B984F800773FF2 /* AsyncAwaitTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTestUITests.swift; sourceTree = "<group>"; };
 		B46E91C725B984F800773FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B46E91D625B9858F00773FF2 /* AsyncTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B44E39AA25BF376D00C00636 /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				B44E39A525BF376800C00636 /* BrakefastModel.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
 		B46E919725B984F500773FF2 = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +116,13 @@
 				B46E91A325B984F500773FF2 /* AppDelegate.swift */,
 				B46E91A525B984F500773FF2 /* SceneDelegate.swift */,
 				B46E91A725B984F500773FF2 /* ViewController.swift */,
-				B46E91D625B9858F00773FF2 /* AsyncTest.swift */,
+				B44E39B425BF398E00C00636 /* ViewControllerPresenter.swift */,
+				B44E39B925BF3A7400C00636 /* ViewControllerInteractor.swift */,
 				B46E91A925B984F500773FF2 /* Main.storyboard */,
 				B46E91AC25B984F800773FF2 /* Assets.xcassets */,
 				B46E91AE25B984F800773FF2 /* LaunchScreen.storyboard */,
 				B46E91B125B984F800773FF2 /* Info.plist */,
+				B44E39AA25BF376D00C00636 /* MODEL */,
 			);
 			path = AsyncAwaitTest;
 			sourceTree = "<group>";
@@ -261,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B46E91D725B9858F00773FF2 /* AsyncTest.swift in Sources */,
+				B44E39A625BF376800C00636 /* BrakefastModel.swift in Sources */,
+				B44E39BA25BF3A7400C00636 /* ViewControllerInteractor.swift in Sources */,
 				B46E91A825B984F500773FF2 /* ViewController.swift in Sources */,
 				B46E91A425B984F500773FF2 /* AppDelegate.swift in Sources */,
+				B44E39B525BF398E00C00636 /* ViewControllerPresenter.swift in Sources */,
 				B46E91A625B984F500773FF2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

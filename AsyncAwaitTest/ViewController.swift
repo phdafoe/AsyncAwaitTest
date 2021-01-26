@@ -7,13 +7,27 @@
 
 import UIKit
 
+protocol ViewControllerProtocol {
+    func printData(data: BrakefastModel)
+}
+
 class ViewController: UIViewController {
+    
+    var presenter: ViewControllerPresenterProtocol?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.presenter = ViewControllerPresenterImplementation()
+        self.presenter?.fetchData()
     }
+    
+}
 
-
+extension ViewController: ViewControllerProtocol {
+    func printData(data: BrakefastModel) {
+        print("\(data.id ?? 0)")
+    }
+    
+    
 }
 

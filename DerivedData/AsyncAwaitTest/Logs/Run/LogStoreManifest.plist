@@ -5,6 +5,177 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>0A5E9FB7-2AC5-43A6-987D-6E54EAFCECAD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0A5E9FB7-2AC5-43A6-987D-6E54EAFCECAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AsyncAwaitTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AsyncAwaitTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>timeStartedRecording</key>
+			<real>633290711.61804605</real>
+			<key>timeStoppedRecording</key>
+			<real>633290867.46123695</real>
+			<key>title</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>uniqueIdentifier</key>
+			<string>0A5E9FB7-2AC5-43A6-987D-6E54EAFCECAD</string>
+		</dict>
+		<key>774ABBF0-F6E7-43B4-9EEF-591D6A8A5480</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>774ABBF0-F6E7-43B4-9EEF-591D6A8A5480.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AsyncAwaitTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AsyncAwaitTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>timeStartedRecording</key>
+			<real>633290693.18199599</real>
+			<key>timeStoppedRecording</key>
+			<real>633290698.33788204</real>
+			<key>title</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>uniqueIdentifier</key>
+			<string>774ABBF0-F6E7-43B4-9EEF-591D6A8A5480</string>
+		</dict>
+		<key>833B0517-249C-43E0-8F15-7947E1241504</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>833B0517-249C-43E0-8F15-7947E1241504.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AsyncAwaitTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AsyncAwaitTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>timeStartedRecording</key>
+			<real>633345892.05541503</real>
+			<key>timeStoppedRecording</key>
+			<real>633348060.85087299</real>
+			<key>title</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>uniqueIdentifier</key>
+			<string>833B0517-249C-43E0-8F15-7947E1241504</string>
+		</dict>
+		<key>95450ADA-6D6C-48CF-828E-2987E2E39370</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>95450ADA-6D6C-48CF-828E-2987E2E39370.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AsyncAwaitTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AsyncAwaitTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>timeStartedRecording</key>
+			<real>633290867.70314896</real>
+			<key>timeStoppedRecording</key>
+			<real>633340751.65062296</real>
+			<key>title</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>uniqueIdentifier</key>
+			<string>95450ADA-6D6C-48CF-828E-2987E2E39370</string>
+		</dict>
+		<key>E1A4D00A-E89F-47EB-99E8-2D015F819B49</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E1A4D00A-E89F-47EB-99E8-2D015F819B49.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AsyncAwaitTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AsyncAwaitTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>timeStartedRecording</key>
+			<real>633348060.92572999</real>
+			<key>timeStoppedRecording</key>
+			<real>633348089.78740001</real>
+			<key>title</key>
+			<string>Run AsyncAwaitTest</string>
+			<key>uniqueIdentifier</key>
+			<string>E1A4D00A-E89F-47EB-99E8-2D015F819B49</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

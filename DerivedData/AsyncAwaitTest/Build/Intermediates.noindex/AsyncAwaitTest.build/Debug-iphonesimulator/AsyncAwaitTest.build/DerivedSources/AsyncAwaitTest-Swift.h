@@ -247,6 +247,7 @@ SWIFT_CLASS("_TtC14AsyncAwaitTest14ViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
